@@ -27,6 +27,6 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           tags: quay.io/ghatwala/multi-arch-gha:latest
-          platforms: linux/amd64,linux/ppc64le
+          platforms: linux/amd64,linux/ppc64le,linux/ppc64le,linux/arm
           push: true
 
